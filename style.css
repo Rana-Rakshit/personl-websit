@@ -1,0 +1,114 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;600&display=swap');
+
+
+/* Google Fonts */
+
+/* 
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.btn{
+    background: linear-gradient(to right, rgb(255, 89, 89), rgb(255, 173, 90));
+    padding: 15px 40px;
+    border-radius: 10px;
+    border: none;
+    margin: 20px 0 20px 0;
+}
+.basic_title{
+    text-align: center;
+    margin: 10px 0px;
+    padding: 10px;
+}
+.basic_title span{
+    color: #ffad5a;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+/* banner Section start */
+.banner_main{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.banner_content{
+    padding-left: 75px;
+}
+.banner_title{
+font-size: 45px;
+margin-bottom: 30px;
+font-family: 'Montserrat', sans-serif;
+font-weight: 600;
+}
+.banner_title span{
+    color: #ffad5a;
+}
+.banner_content p{
+    color: #222222;
+    line-height: 1.6;
+    font-size: 19px;
+    padding: 15px 0 15px 0;
+    font-family: serif;
+}
+
+.banner-Image{
+    padding-left: 110px;
+}
+
+/* banner Section end */
+
+/* Mission section start  */
+.mission_main_area{
+display: grid;
+justify-content: space-between;
+align-items: center;
+grid-template-columns: auto auto auto;
+gap: 19px;
+text-align: center;
+margin-top: 20px;
+}
+.mission_main_area img{
+    width: 150px;
+}
+.mission_contant h3{
+    line-height: 2;
+    font-size: 25px;
+    padding: 5px;
+}
+.mission_contant{
+    border-radius: 5%;
+}
+
+.mission_contant p{
+    font-size: 14px;
+    text-align: justify;
+    line-height: 1.7;
+    padding: 20px 34px;
+   
+}
+.mission{
+    background-color: #EDF5F6;
+}
+.vision{
+    background-color: #FFEEEE;
+    padding-bottom: 15px;
+}
+.goals{
+    background-color: #FFF4D6;
+}
+/* Mission section end */
