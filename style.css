@@ -1,9 +1,11 @@
- @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;600&display=swap');
+
 
 
 /* Google Fonts */
 
 /* 
+font-family: 'Lobster', cursive;
 font-family: 'Montserrat', sans-serif;
 font-family: 'Poppins', sans-serif;
 */
@@ -27,6 +29,23 @@ body{
     border: none;
     margin: 20px 0 20px 0;
 }
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+.btn_long{
+    background: linear-gradient(to right, rgb(255, 89, 89), rgb(255, 173, 90));
+    padding: 17px 44px;
+    border-radius: 10px;
+    border: none;
+    margin: 5px 0 20px 0;
+}
+.btn_long a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+}
 .basic_title{
     text-align: center;
     margin: 10px 0px;
@@ -35,10 +54,7 @@ body{
 .basic_title span{
     color: #ffad5a;
 }
-.btn a{
-    text-decoration: none;
-    color: white;
-}
+
 /* banner Section start */
 .banner_main{
     display: flex;
@@ -112,3 +128,172 @@ margin-top: 20px;
     background-color: #FFF4D6;
 }
 /* Mission section end */
+
+/* development section start  */
+.develop_area{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 90px;
+}
+.develop_imag img{
+width: 434PX;
+height: 439px;
+border-radius: 5%;
+}
+.develop_contant{
+    margin-left: 61px;
+    padding-left: 32px;
+}
+.develop_contant h2{
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+.develop_contant p{
+    padding-bottom: 30px;
+    text-align: justify;
+    font-size: 17px;
+}
+
+/* development section end  */
+
+/* about me section start  */
+.about_area{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 112px;
+}
+.about_imag img{
+    width: 434PX;
+    height: 439px;
+    border-radius: 5%;
+}
+.about_contant h2{
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+.about_contant p{
+    width: 492px;
+    padding-bottom: 30px;
+    text-align: justify;
+    font-size: 17px;
+}
+/* about me section end */
+
+/* service section start */
+.service_main_area{
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    grid-template-columns: auto auto auto;
+    gap: 19px;
+    text-align: center;
+    margin-top: 20px;
+    }
+    .service_main_area img{
+        width: 150px;
+        padding: 20px 0;
+    }
+    .service_contant h3{
+        line-height: 2;
+        font-size: 25px;
+        padding: 5px;
+    }
+    .service_contant{
+        background-color: #FFFFFF;
+        box-shadow: 5px 9px 30px rgb(219, 217, 217);
+    }
+    
+    .service_contant p{
+        font-size: 14px;
+        text-align: justify;
+        line-height: 1.7;
+        padding: 20px 34px;
+       
+    }
+/* service section end */
+
+/* contact section start  */
+.contact_area{
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+}
+.contact_image img{
+    width: 530px;
+    height: 400px;
+}
+.contact_form form{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    grid-template-areas: 
+    "f u"
+    "e p"
+    "m m"
+    "s s";
+}
+#full_name{
+    grid-area: f;
+}
+#user_name{
+    grid-area: u;
+}
+#email{
+    grid-area: e;
+}
+#pass{
+    grid-area: p;
+}
+#message{
+    grid-area: m;
+}
+#send_message{
+    grid-area: s;
+    width: 185px;
+    color: #fff;
+}
+
+.contact_form input{
+    font-size: 17px;
+    padding: 12px 20px;
+    width: 325px;
+}
+
+.contact_form textarea{
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 12px;
+    background-color: transparent;
+    border: 1px solid#3a2b71;
+    color: #fff;
+}
+
+/* contact section end  */
+
+/* footer section start */
+.footer_content{
+    padding: 40px;
+    text-align: center;
+    background: #0b0d17;
+    width: 100%;
+    height: 500px;
+}
+
+.footer_content h2{
+    line-height: 2;
+    color: white;
+    font-size: 35px;
+    padding-bottom: 10px;
+    font-family: 'Lobster', cursive;
+}
+.footer_content span{
+    color: #ffad5a;
+}
+
+.footer_content p {
+    color: gray;
+}
+
+/* footer section end */
